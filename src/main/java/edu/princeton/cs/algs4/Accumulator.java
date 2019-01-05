@@ -110,6 +110,7 @@ public class Accumulator {
         while (!StdIn.isEmpty()) {
             double x = StdIn.readDouble();
             stats.addDataValue(x);
+
         }
 
         StdOut.printf("n      = %d\n",   stats.count());
